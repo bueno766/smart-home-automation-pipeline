@@ -1,0 +1,25 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+template:
+  - light:
+      - name: "LED Sala"
+        unique_id: led_da_sala
+        state: "{{ is_state('input_boolean.led_da_sala', 'on') }}"
+        turn_on:
+          service: input_boolean.turn_on
+          target:
+            entity_id: input_boolean.led_da_sala
+        turn_off:
+          service: input_boolean.turn_off
+          target:
+            entity_id: input_boolean.led_da_sala

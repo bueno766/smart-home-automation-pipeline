@@ -1,0 +1,17 @@
+{
+  "name": "smart-led-webhook-api",
+  "version": "1.0.0",
+  "description": "API REST para automação residencial via webhook",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
