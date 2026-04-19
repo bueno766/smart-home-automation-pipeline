@@ -58,7 +58,7 @@ Uma requisição HTTP é enviada contendo a ação desejada:
 
 ---
 
-2. Processamento no n8n
+**2. Processamento no n8n**
 
 O n8n:
 - Recebe o webhook
@@ -66,7 +66,8 @@ O n8n:
 - Executa lógica condicional (IF node)
 - Direciona para a API do Home Assistant
 
-3. Execução no Home Assistant
+
+**3. Execução no Home Assistant**
 
 O Home Assistant recebe a requisição REST e executa a ação no dispositivo:
 
@@ -76,7 +77,9 @@ Sincroniza status em tempo real
 
 💡 Dispositivo Controlado: light.led_sala
 
-🔌 Endpoints Utilizados
+
+**🔌 Endpoints Utilizados**
+
 Home Assistant REST API:
 
 POST /api/services/light/turn_on
