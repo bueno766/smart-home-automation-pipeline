@@ -58,7 +58,7 @@ Uma requisição HTTP é enviada contendo a ação desejada:
 
 ---
 
-**2. Processamento no n8n**
+## 2. Processamento no n8n
 
 O n8n:
 - Recebe o webhook
@@ -68,7 +68,7 @@ O n8n:
 
 ---
 
-**3. Execução no Home Assistant**
+## 3. Execução no Home Assistant
 
 O Home Assistant recebe a requisição REST e executa a ação no dispositivo:
 
@@ -80,7 +80,7 @@ Sincroniza status em tempo real
 
 ---
 
-**🔌 Endpoints Utilizados**
+## 🔌 Endpoints Utilizados
 
 Home Assistant REST API:
 
@@ -95,7 +95,7 @@ Payload padrão
 
 ---
 
-🏠 Home Assistant (Papel no Sistema)
+## 🏠 Home Assistant (Papel no Sistema)
 
 O Home Assistant atua como camada de execução IoT, responsável por:
 
@@ -107,7 +107,7 @@ Entidade utilizada: light.led_sala
 
 ---
 
-🔁 n8n (Papel no Sistema)
+## 🔁 n8n (Papel no Sistema)
 
 O n8n é responsável por:
 Receber requisições via Webhook
@@ -117,7 +117,7 @@ Orquestrar o fluxo de automação
 
 ---
 
-🧪 Casos de Uso
+## 🧪 Casos de Uso
 
 Controle de iluminação inteligente
 Automação residencial baseada em eventos
@@ -127,7 +127,7 @@ Execução de comandos IoT via Home Assistant
 
 ---
 
-🧠 Principais Aprendizados
+## 🧠 Principais Aprendizados
 
 Arquitetura event-driven
 Integração de APIs REST
@@ -138,7 +138,7 @@ Estruturação de sistemas distribuídos
 
 ---
 
-⚠️ Problemas Resolvidos
+## ⚠️ Problemas Resolvidos
 
 Mapeamento correto de entidades no Home Assistant
 Ajuste de payload JSON em requisições HTTP
@@ -148,7 +148,7 @@ Debug de estados de dispositivos IoT
 
 ---
 
-🚀 Possíveis Evoluções
+## 🚀 Possíveis Evoluções
 
 Integração com Alexa / Google Home
 Controle via Telegram bot
