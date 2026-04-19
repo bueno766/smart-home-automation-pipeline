@@ -49,9 +49,9 @@ Uma requisição HTTP é enviada contendo a ação desejada:
   "action": "on"
 }
 ```
-<img width="1088" height="577" alt="image" src="https://github.com/user-attachments/assets/dbd3d7d8-9119-4aaa-b872-458bb11f0b26" />
+<img width="1088" height="577" alt="image" src="https://github.com/user-attachments/assets/dbd3d7d8-9119-4aaa-b872-458bb11f0b26" /><br><br>
 
-<img width="1088" height="568" alt="image" src="https://github.com/user-attachments/assets/ac290cc1-64c6-4d55-a69a-30b91e6b832e" />
+<img width="1088" height="568" alt="image" src="https://github.com/user-attachments/assets/ac290cc1-64c6-4d55-a69a-30b91e6b832e" /><br><br>
 
 
 ---
@@ -64,9 +64,9 @@ O n8n:
 - Executa lógica condicional (IF node)
 - Direciona para a API do Home Assistant
 
-<img width="1917" height="861" alt="image" src="https://github.com/user-attachments/assets/dddbb289-b79b-4011-9325-fc102bfed7a6" />
+<img width="1917" height="861" alt="image" src="https://github.com/user-attachments/assets/dddbb289-b79b-4011-9325-fc102bfed7a6" /><br><br>
 
-<img width="1854" height="792" alt="image" src="https://github.com/user-attachments/assets/6cac16ae-022a-4068-bb4b-782f496766e3" />
+<img width="1854" height="792" alt="image" src="https://github.com/user-attachments/assets/6cac16ae-022a-4068-bb4b-782f496766e3" /><br><br>
 
 ---
 
@@ -80,13 +80,13 @@ Sincroniza status em tempo real
 
 💡 Dispositivo Controlado: light.led_sala
 
-<img width="1912" height="861" alt="image" src="https://github.com/user-attachments/assets/abf47bf0-589a-4bb7-9533-e496098739c4" />
+<img width="1912" height="861" alt="image" src="https://github.com/user-attachments/assets/abf47bf0-589a-4bb7-9533-e496098739c4" /><br><br>
 
-<img width="1911" height="870" alt="image" src="https://github.com/user-attachments/assets/9d2c976e-f042-42d0-8604-0b1c54fde03d" />
+<img width="1911" height="870" alt="image" src="https://github.com/user-attachments/assets/9d2c976e-f042-42d0-8604-0b1c54fde03d" /><br><br>
 
-<img width="1911" height="852" alt="image" src="https://github.com/user-attachments/assets/7746ca5a-6f6f-4bdd-bc39-c1aa36c65eab" />
+<img width="1911" height="852" alt="image" src="https://github.com/user-attachments/assets/7746ca5a-6f6f-4bdd-bc39-c1aa36c65eab" /><br><br>
 
-<img width="1902" height="860" alt="image" src="https://github.com/user-attachments/assets/6d526441-6af3-44f3-bbed-f5a1d27036c1" />
+<img width="1902" height="860" alt="image" src="https://github.com/user-attachments/assets/6d526441-6af3-44f3-bbed-f5a1d27036c1" /><br><br>
 
 
 ## 🔌 Endpoints Utilizados
@@ -109,13 +109,13 @@ A integração com Alexa foi utilizada para validar o controle de dispositivos v
 
 A entidade `light.led_sala` foi exposta através do Home Assistant Cloud (Nabu Casa), permitindo controle por voz e interface da Alexa.
 
-<img width="350" height="658" alt="image" src="https://github.com/user-attachments/assets/ab5c71c5-3040-4d43-b7b7-2b6eb80799b5" />
+<img width="350" height="658" alt="image" src="https://github.com/user-attachments/assets/ab5c71c5-3040-4d43-b7b7-2b6eb80799b5" /><br><br>
 
-<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/43a3b7e0-d782-4004-9b30-75c3d0459d8e" />
+<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/43a3b7e0-d782-4004-9b30-75c3d0459d8e" /><br><br>
 
-<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/e8b2c538-967c-4ddf-bfb1-6d58506e4f68" />
+<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/e8b2c538-967c-4ddf-bfb1-6d58506e4f68" /><br><br>
 
-<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/d892815a-55f4-4070-8811-3fc3077fadd9" />
+<img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/d892815a-55f4-4070-8811-3fc3077fadd9" /><br><br>
 
 ---
 
