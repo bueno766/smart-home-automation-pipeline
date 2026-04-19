@@ -99,62 +99,62 @@ Payload padrão
 
 O Home Assistant atua como camada de execução IoT, responsável por:
 
-Controlar dispositivos inteligentes
-Expor API REST para automações externas
-Gerenciar estados de entidades
-Executar ações em tempo real
-Entidade utilizada: light.led_sala
+- Controlar dispositivos inteligentes
+- Expor API REST para automações externas
+- Gerenciar estados de entidades
+- Executar ações em tempo real
+- Entidade utilizada: light.led_sala
 
 ---
 
 ## 🔁 n8n (Papel no Sistema)
 
 O n8n é responsável por:
-Receber requisições via Webhook
-Processar lógica condicional (IF ON/OFF)
-Encaminhar comandos para o Home Assistant
-Orquestrar o fluxo de automação
+- Receber requisições via Webhook
+- Processar lógica condicional (IF ON/OFF)
+- Encaminhar comandos para o Home Assistant
+- Orquestrar o fluxo de automação
 
 ---
 
 ## 🧪 Casos de Uso
 
-Controle de iluminação inteligente
-Automação residencial baseada em eventos
-Integração entre sistemas via API
-Orquestração de fluxos com n8n
-Execução de comandos IoT via Home Assistant
+- Controle de iluminação inteligente
+- Automação residencial baseada em eventos
+- Integração entre sistemas via API
+- Orquestração de fluxos com n8n
+- Execução de comandos IoT via Home Assistant
 
 ---
 
 ## 🧠 Principais Aprendizados
 
-Arquitetura event-driven
-Integração de APIs REST
-Automação de workflows com n8n
-Controle de dispositivos IoT
-Debug de requisições HTTP
-Estruturação de sistemas distribuídos
+- Arquitetura event-driven
+- Integração de APIs REST
+- Automação de workflows com n8n
+- Controle de dispositivos IoT
+- Debug de requisições HTTP
+- Estruturação de sistemas distribuídos
 
 ---
 
 ## ⚠️ Problemas Resolvidos
 
-Mapeamento correto de entidades no Home Assistant
-Ajuste de payload JSON em requisições HTTP
-Integração n8n → Home Assistant via API
-Correção de lógica IF em webhook
-Debug de estados de dispositivos IoT
+- Mapeamento correto de entidades no Home Assistant
+- Ajuste de payload JSON em requisições HTTP
+- Integração n8n → Home Assistant via API
+- Correção de lógica IF em webhook
+- Debug de estados de dispositivos IoT
 
 ---
 
 ## 🚀 Possíveis Evoluções
 
-Integração com Alexa / Google Home
-Controle via Telegram bot
-Dashboard web para automação
-Integração com MQTT
-Sistema de logs e histórico de eventos
+- Integração com Alexa / Google Home
+- Controle via Telegram bot
+- Dashboard web para automação
+- Integração com MQTT
+- Sistema de logs e histórico de eventos
 
 ---
 
