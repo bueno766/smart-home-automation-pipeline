@@ -84,8 +84,8 @@ Sincroniza status em tempo real
 
 Home Assistant REST API:
 
-POST /api/services/light/turn_on
-POST /api/services/light/turn_off
+- POST /api/services/light/turn_on
+- POST /api/services/light/turn_off
 
 Payload padrão
 {
@@ -160,5 +160,5 @@ O n8n é responsável por:
 
 👨‍💻 Autor
 
-Miguel Bueno
-Projeto de automação e integração de sistemas para portfólio técnico.
+- Miguel Bueno
+- Projeto de automação e integração de sistemas para portfólio técnico.
