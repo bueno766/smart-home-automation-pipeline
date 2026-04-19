@@ -66,6 +66,7 @@ O n8n:
 - Executa lógica condicional (IF node)
 - Direciona para a API do Home Assistant
 
+---
 
 **3. Execução no Home Assistant**
 
@@ -77,6 +78,7 @@ Sincroniza status em tempo real
 
 💡 Dispositivo Controlado: light.led_sala
 
+---
 
 **🔌 Endpoints Utilizados**
 
@@ -91,6 +93,8 @@ Payload padrão
 }
 
 
+---
+
 🏠 Home Assistant (Papel no Sistema)
 
 O Home Assistant atua como camada de execução IoT, responsável por:
@@ -101,6 +105,7 @@ Gerenciar estados de entidades
 Executar ações em tempo real
 Entidade utilizada: light.led_sala
 
+---
 
 🔁 n8n (Papel no Sistema)
 
@@ -110,6 +115,7 @@ Processar lógica condicional (IF ON/OFF)
 Encaminhar comandos para o Home Assistant
 Orquestrar o fluxo de automação
 
+---
 
 🧪 Casos de Uso
 
@@ -119,6 +125,7 @@ Integração entre sistemas via API
 Orquestração de fluxos com n8n
 Execução de comandos IoT via Home Assistant
 
+---
 
 🧠 Principais Aprendizados
 
@@ -129,6 +136,7 @@ Controle de dispositivos IoT
 Debug de requisições HTTP
 Estruturação de sistemas distribuídos
 
+---
 
 ⚠️ Problemas Resolvidos
 
@@ -138,6 +146,7 @@ Integração n8n → Home Assistant via API
 Correção de lógica IF em webhook
 Debug de estados de dispositivos IoT
 
+---
 
 🚀 Possíveis Evoluções
 
@@ -147,6 +156,7 @@ Dashboard web para automação
 Integração com MQTT
 Sistema de logs e histórico de eventos
 
+---
 
 👨‍💻 Autor
 
