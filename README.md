@@ -2,8 +2,6 @@
 
 Sistema de automação residencial baseado em arquitetura orientada a eventos (event-driven), integrando API Webhook, n8n como orquestrador de fluxos e Home Assistant como camada de execução IoT.
 
-<img width="480" height="600" alt="1776609707765" src="https://github.com/user-attachments/assets/d0798c73-4dd7-4a86-a6e9-8f036ad11e7d" />
-
 ---
 
 ## 🚀 Visão Geral
@@ -11,6 +9,8 @@ Sistema de automação residencial baseado em arquitetura orientada a eventos (e
 Este projeto demonstra uma arquitetura real de automação residencial capaz de receber comandos externos via API e executar ações em dispositivos inteligentes.
 
 A solução simula um sistema profissional de integração entre serviços, utilizando automação de workflows e controle de dispositivos IoT via REST API.
+
+<img width="480" height="600" alt="1776609707765" src="https://github.com/user-attachments/assets/d0798c73-4dd7-4a86-a6e9-8f036ad11e7d" />
 
 ---
 
